@@ -1,0 +1,21 @@
+
+  
+  .flex-container {
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 150px;
+    display:flex;
+    background: peachpuff;
+    border: 4px solid brown;
+    height: 100px;
+  }
+
+img {
+    height: 100px;
+}
+
+.column {
+    display:flex;
+    flex:1;
+
+}
