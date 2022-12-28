@@ -14,33 +14,35 @@
 
   .image-section {
     display: flex;
-align-items: center;    
-flex-direction: column;
+    align-items: center;    
+    flex-direction: column;
     padding: 100px;
     display:flex;
-    background: #3882f6
-    border: 4px solid brown;
   }
 
   .box-three {
     padding: 100px;
     display:flex;
-    background: peachpuff;
-    border: 4px solid brown;
+    background: #e5e7eb;
+    justify-content: center;
+
   }
 
   .box-four {
-    padding: 100px;
+    padding: 5%;
     display:flex;
-    background: peachpuff;
-    border: 4px solid brown;
+    background-color: white;
+    justify-content: center;
   }
 
   .footer {
+    padding: 50px;
+    justify-content: center;
+
     display:flex;
     background: #1f2937;
-    border: 4px solid brown;
-
+    color: white;
+    font-size: smaller;
   }
 
   .leftcolumnboxone {
@@ -69,15 +71,27 @@ img {
   border-radius: 40px;
 }
 
-.inner-footer {
-  margin: 50px;
-  padding: 50px;
+.calltoaction {
+  margin: 20px;
+  padding: 25px;
+  padding-left: 50x;
+  padding-right: 50px;
   display:flex;
-  background-color: blue;
+  background: #3882f6;
+  width: 80%;
+  justify-content:space-between ;
+  color: #e5e7eb;
+  border-radius: 15px;
 }
 
-#sign-up {
+.signup {
   justify-content: start;
+}
+
+#puppy {
+  width: 250px;
+  height: auto
+
 }
 
 .headerlogo {
@@ -97,22 +111,53 @@ img {
   margin: 0%;
 }
 
-#herosecondarytext {
+.herosecondarytext {
   font-size: 18px;
   color: #e5e7eb;
 }
 
-#select {
+.signup {
   color: #f9faf8;
   background-color: #3882f6;
   width: 75px;
   height: auto;
   border-radius: 7px;
   border-color: #3882f6;;
+  margin-top: 10px;
+}
+
+.image-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.imagesubtext {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 5px
+}
+
+
+#calltoactionbutton {
+  border-color: white;
+  border-width: 3px;
+  width: 15%;
 }
 
 #information {
   font-size: 36px;
   font-weight: bold;
   color: #1f2937
+}
+
+.quotetext{
+  font-style: italic;
+  font-weight: light;
+  font-size: 36px;
+  color: #1f2937;
+}
+
+#signature {
+  font-weight: bold;
 }
